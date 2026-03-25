@@ -1,1 +1,42 @@
-
+export const data = [
+    {
+      question: "What is React ?",
+      option1: "A JavaScript framework",
+      option2: "A JavaScript library for building user interfaces",
+      option3: "A database tool",
+      option4: "A CSS framework",
+      ans: 2,
+    },
+    {
+      question: "Who created React ?",
+      option1: "Google",
+      option2: "Microsoft",
+      option3: "Facebook (Meta)",
+      option4: "Twitter",
+      ans: 3,
+    },
+    {
+      question: "Which of the following is used to create components in React?",
+      option1: "JSX",
+      option2: "HTML",
+      option3: "JSON",
+      option4: "XML",
+      ans: 1,
+    },
+    {
+      question: "What is the virtual DOM?",
+      option1: "A copy of the real DOM stored in memory",
+      option2: "A separate browser window",
+      option3: "A database for DOM elements",
+      option4: "A CSS rendering engine",
+      ans: 1,
+    },
+    {
+      question: "Which hook runs after every render by default?",
+      option1: "useMemo",
+      option2: "useEffect",
+      option3: "useState",
+      option4: "useRef",
+      ans: 2,
+    },
+  ];
